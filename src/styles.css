@@ -1,0 +1,102 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+}
+
+.mastodon-label,
+.main-nav ul,
+.main-nav .login-signup {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(207, 185, 145);
+  height: 70px;
+  padding: 0 10px;
+}
+.main-nav ul {
+  background-color: rgb(207, 185, 145);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+}
+.main-nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.main-nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.login-signup {
+  margin-left: auto;
+}
+.login-signup a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 9px 19px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+.login-signup a:hover {
+  background-color: black;
+  color: white;
+}
+
+.mastodon-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin: 20px;
+}
+
+.footer-container {
+  background-color: rgb(207, 185, 145);
+  color: black;
+  height: 80px;
+  margin-top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 96.8%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 20px;
+  overflow: hidden;
+  transition: bottom 0.3s ease; /* Add smooth transition effect */
+}
+
+.left-column {
+  float: left;
+}
+
+.right-column {
+  float: right;
+}
+
+.left-column, .right-column {
+  flex: 1;
+  text-align: left;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  display: block; /* Display each link as a block element */
+  width: 100%;
+  height: 20px;
+}
+
+.right-column a:hover {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
