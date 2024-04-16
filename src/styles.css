@@ -100,6 +100,97 @@ footer a {
   color: white;
 }
 
+h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+.container .officer {
+  margin-bottom: 20px;
+}
+.container .officer .mail {
+  font-weight: bold;
+  color: #00f;
+}
+.container .officer .previous-page-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.club-container {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(184, 168, 77);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.club-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(207, 119, 47, 0.8);
+}
+.club-container img {
+  width: 10%;
+  max-width: 10%;
+  height: auto;
+  max-height: 10%;
+}
+
+#filter-container {
+  text-align: center;
+  margin: 10px;
+}
+#filter-container .filter-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333;
+  padding: 20px;
+  z-index: 1;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(207, 119, 47, 0.8);
+}
+#filter-container .filter-popup .filter-checkbox {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(9, 0, 0, 0.9333333333);
+  border: 1px solid rgba(204, 204, 204, 0);
+  padding: 20px;
+  max-width: 300px;
+  z-index: 9999; /* Ensure pop-up appears above other content */
+}
+
+.popup h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.popup p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.popup img {
+  max-width: 100%;
+}
+
 .event-images img {
   display: block;
   margin-left: auto;

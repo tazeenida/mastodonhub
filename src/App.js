@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Navigation from './components/Navigation';
 import Dashboard from './components/Dashboard';
 import Events from './components/Events';
-import Clubs from './components/Clubs';
+import Clubs from './components/ClubsPage';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import './styles.css';
