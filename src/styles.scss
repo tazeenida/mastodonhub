@@ -172,28 +172,26 @@ h1 {
   }
 }
 
-#filter-container {
+.centered-filter-button {
   text-align: center;
-  margin: 10px;
-
-  .filter-popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #333;
-    padding: 20px;
-    z-index: 1;
-    border-radius: 5px;
-    box-shadow: 0 0 15px rgba(207, 119, 47, 0.8);
-
-    .filter-checkbox {
-      display: block;
-      margin-bottom: 10px;
-    }
-  }
+  margin-bottom: 20px; /* Add margin for spacing */
 }
+
+.filter-popup {
+  position: absolute;
+  top: 10%; /* Position the popup at the vertical center */
+  left: 50%; /* Position the popup at the horizontal center */
+  transform: translate(-50%, -50%); /* Center the popup */
+  background-color: #9a7b17;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 
 .popup {
   position: fixed;
