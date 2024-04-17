@@ -11,7 +11,6 @@ import AfricanStudentsOrganizationPopup from './AfricanStudentsOrganization'; //
 import BollywoodJhoomPopup from './BollywoodJhoom'; // Import BollywoodJhoomPopup component
 import DancinDonsPopup from './DancinDons'; // Import DancinDonsPopup component
 
-import './styles.scss'; // Import styles.scss
 
 function ClubsPage() {
   const [showBasketballPopup, setShowBasketballPopup] = useState(false);
