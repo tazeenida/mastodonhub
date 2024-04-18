@@ -181,7 +181,7 @@ function ClubsPage() {
           <div className="club-item" onClick={openAccountingSocietyPopup}>
             <h2>Accounting Society</h2>
             <p>Location: Neff</p>
-            <img src="[Image URL]" alt="Accounting Society" />
+            <img src="https://www.pfw.edu/sites/default/files/styles/50_50_landscape/public/images/20160125-Grad-Business-JW-025.jpg?h=5e72c3a1&itok=GWd9YrPQ" alt="Accounting Society" />
           </div>
         </div>
       )}
@@ -192,7 +192,7 @@ function ClubsPage() {
           <div className="club-item" onClick={openActiveMindsPopup}>
             <h2>Active Minds</h2>
             <p>Location: Visual Arts Building</p>
-            <img src="[Image URL]" alt="Active Minds" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrL3bcmsBoVPRRMZDeu8oltb91zsx947F26w&s" alt="Active Minds" />
           </div>
         </div>
       )}
@@ -203,7 +203,7 @@ function ClubsPage() {
           <div className="club-item" onClick={openAfricanStudentsOrganizationPopup}>
             <h2>African Students Organization</h2>
             <p>Location: Walb</p>
-            <img src="[Image URL]" alt="African Students Organization" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdAcVKkySv25NYQ5AS-jHP_zZ0Pgp5-n4HLA&s" alt="African Students Organization" />
           </div>
         </div>
       )}
@@ -214,21 +214,22 @@ function ClubsPage() {
           <div className="club-item" onClick={openBollywoodJhoomPopup}>
             <h2>Bollywood Jhoom</h2>
             <p>Location: Walb</p>
-            <img src="[Image URL]" alt="Bollywood Jhoom" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BZobz4fWnoU1668aI3FK9CQt2kF0RDfN2g&s" alt="Bollywood Jhoom" />
           </div>
         </div>
       )}
 
-      {/* Dancin' Dons */}
+      {/* Dancin Dons */}
       {shouldDisplayClub(["Dance"]) && (
         <div className="club-container">
-          <div className="club-item" onClick={openDancinDonsPopup}>
-            <h2>Dancin' Dons</h2>
+          <div className="club-item" onClick={openBollywoodJhoomPopup}>
+            <h2>Dancin Dons</h2>
             <p>Location: Walb</p>
-            <img src="[Image URL]" alt="Dancin' Dons" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjR7nbVRSPYuVXZKcPoqkyptjIFzGai988Zg&s" alt="Dancin Dons" />
           </div>
         </div>
       )}
+      
 
       {/* Pop-ups */}
       {showBasketballPopup && <BasketballClubPopup closePopup={closeBasketballPopup} />}
