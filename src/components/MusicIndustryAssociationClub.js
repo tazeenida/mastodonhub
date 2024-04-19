@@ -9,20 +9,20 @@ function MusicIndustryAssociationClub({ closePopup }) {
         </header>
         <div className="officer">
           <h2>President</h2>
-          <p>Name: [President Name]</p>
+          <p>Name: Patrick Sizemore</p>
         </div>
         <div className="officer">
           <h2>Treasurer</h2>
-          <p>Name: [Treasurer Name]</p>
+          <p>Name: Stephanie Case</p>
         </div>
         <div className="officer">
           <h2>Advisor</h2>
-          <p>Name: [Advisor Name]</p>
-          <p>Email: <span className="mail">[Advisor Email]</span></p>
+          <p>Name: Jason Lundgren</p>
+          <p>Email: <span className="mail">lundgrej@pfw.edu</span></p>
         </div>
         <div className="officer">
           <h2>Contact</h2>
-          <p>Email:<span className="mail">[Contact Email]</span></p>
+          <p>Email:<span className="mail">mia@pfw.edu</span></p>
         </div>
         <button className="previous-page-button" onClick={closePopup}>Close</button>
       </div>
