@@ -244,7 +244,7 @@ function ClubsPage() {
       {showBollywoodJhoomPopup && <BollywoodJhoomPopup closePopup={closeBollywoodJhoomPopup} />}
       {showDancinDonsPopup && <DancinDonsPopup closePopup={closeDancinDonsPopup} />}
 
-      {/* Footer */}
+      {/* Footer 
       <footer>
         <div className="left-column">
           <a style={{ fontSize: '15px' }}><strong>MastodonEvents</strong></a>
@@ -258,7 +258,7 @@ function ClubsPage() {
           <a href="../MastodonEvents/userManual.html" target="_blank" style={{ fontSize: '10px' }}>User Manual</a>
           <a href="../MastodonEvents/contactSupport.html" target="_blank" style={{ fontSize: '10px' }}>Contact Support</a>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
