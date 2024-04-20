@@ -10,11 +10,13 @@ const Navigation = () => (
       <li><Link to="/Dashboard">Dashboard</Link></li>
       <li><Link to="/Events">Events</Link></li>
       <li><Link to="/Clubs">Clubs</Link></li>
+      {/*<li><Link to="/Profile">Profile</Link></li>*/}
     </ul>
     <div className="login-signup">
       <Link to="/Login">Login</Link>
       <Link to="/Signup">Signup</Link>
     </div>
+
   </nav>
 );
 

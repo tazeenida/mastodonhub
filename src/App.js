@@ -7,6 +7,8 @@ import Events from './components/Events';
 import Clubs from './components/ClubsPage';
 import Login from './components/Login';
 import Signup from './components/Signup';
+import Profile from './components/Profile';
+import Update from './components/Update';
 import './styles.css';
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Route path="/Clubs" element={<Clubs />} />
             <Route path="/Login" element={<Login />} />
             <Route path="/Signup" element={<Signup />} />
+            <Route path="/Profile" element={<Profile />} />
+            <Route path="/Update" element={<Update />} />
           </Routes>
         </div>
       </Router>
