@@ -482,14 +482,12 @@ h1 {
 }
 
 .club-container {
-  
   border: 1px solid #ddd;
   margin: 10px;
   padding: 10px;
   background-color: rgb(184, 168, 77);
   cursor: pointer;
   transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
-  width: 500px; // Adjust the width as needed
 
   &:hover {
     transform: scale(1.05);
@@ -501,7 +499,6 @@ h1 {
     max-width: 10%;
     height: auto;
     max-height: 10%;
-    
   }
 }
 
