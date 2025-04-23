@@ -6,7 +6,7 @@ import ClubsFilter from './clubsFilter';
 import '../styles.css';
 import clubsBanner from '../images/clubsBanner.jpg';
 
-const backendUrl = 'http://127.0.0.1:8000';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function ClubsPage() {
     const [clubs, setClubs] = useState([]);

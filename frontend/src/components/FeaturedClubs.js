@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import ClubModal from './clubsModal';
 
-const backendUrl = 'http://127.0.0.1:8000';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function FeaturedClubs() {
   const [FeaturedClubs, setClubs] = useState([]);

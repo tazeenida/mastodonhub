@@ -4,7 +4,7 @@ import { Modal, ModalHeader, ModalBody, ModalFooter, Button, Form, FormGroup, La
 import { useNavigate } from 'react-router-dom';
 import '../adminClubsEvents.css'
 
-const backendUrl = 'http://127.0.0.1:8000';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function ClubsAdmin() {
     const [clubs, setClubs] = useState([]);

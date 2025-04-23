@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import axios from 'axios';
 
-const backendUrl = 'http://127.0.0.1:8000';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 export function Navigation() {
   const [isAuth, setIsAuth] = useState(false);

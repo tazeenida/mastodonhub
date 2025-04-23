@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import FeatureModal from './FeatureModal';
 
-const backendUrl = 'http://127.0.0.1:8000';
+const backendUrl = process.env.REACT_APP_BACKEND_URL;
 
 function FeaturedEvents() {
   const [FeaturedEvents, setEvents] = useState([]);
