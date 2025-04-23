@@ -4,7 +4,7 @@ import axios from 'axios';
 import ClubModal from './clubsModal';
 import '../styles.css';
 
-const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
+const backendUrl = `https://mastodonhub-nizj.onrender.com`;
 
 function ClubsPage() {
   const [clubs, setClubs] = useState([]);

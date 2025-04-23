@@ -2,7 +2,7 @@ import axios from 'axios';
 axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem('access_token')}`;
 
 const axiosInstance = axios.create({
-  baseURL: `https://django-mastodonhub-react-1.onrender.com`, 
+  baseURL: `https://mastodonhub-nizj.onrender.com`, 
   headers: {
     'Content-Type': 'application/json',
   },

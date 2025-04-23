@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
+const backendUrl = `https://mastodonhub-nizj.onrender.com`;
 
 const ProfilePictureUploader = ({ onPictureUpdate }) => {
   const [profilePicture, setProfilePicture] = useState(null);

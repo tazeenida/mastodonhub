@@ -6,7 +6,7 @@ import ClubsFilter from './clubsFilter';
 import '../styles.css';
 import clubsBanner from '../images/clubsBanner.jpg';
 
-const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
+const backendUrl = `https://mastodonhub-nizj.onrender.com`;
 
 function ClubsPage() {
     const [clubs, setClubs] = useState([]);

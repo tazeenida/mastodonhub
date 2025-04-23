@@ -4,7 +4,7 @@ import { Modal, ModalHeader, ModalBody, ModalFooter, Button, Form, FormGroup, La
 import { useNavigate } from 'react-router-dom';
 import '../adminClubsEvents.css'
 
-const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
+const backendUrl = `https://mastodonhub-nizj.onrender.com`;
 
 function ClubsAdmin() {
     const [clubs, setClubs] = useState([]);

@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://django-mastodonhub-react-1.onrender.com",
+  "proxy": "https://mastodonhub-nizj.onrender.com",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.6.8",
