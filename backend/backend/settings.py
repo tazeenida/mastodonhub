@@ -55,7 +55,10 @@ INSTALLED_APPS = [
     'authentification'
 ]
 
-CORS_ORIGIN_ALLOW_ALL = False
+# Enable CORS for all domains
+CORS_ORIGIN_ALLOW_ALL = True  # Allow all CORS requests^M
+# CORS settings for credentials (keep True if needed for cookies or authentication)^M
+CORS_ALLOW_CREDENTIALS = True
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
