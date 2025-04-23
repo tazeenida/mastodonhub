@@ -32,9 +32,9 @@ DEBUG = True
 # ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
 
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+    ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'mastodonhub-nizj.onrender.com']
 else:
-    ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
+    ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '', 'mastodonhub-nizj.onrender.com').split(',')
 
 
 
