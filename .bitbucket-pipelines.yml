@@ -1,0 +1,36 @@
+image: python:3.11  # Use Python as base image for backend setup
+
+pipelines:
+  default:
+    - step:
+        name: Setup and Test Backend (Cypress)
+        image: cypress/included:12.17.1  # Use Cypress official image
+        caches:
+          - pip
+        script:
+          - cd backend
+          - python -m venv venv
+          - source venv/bin/activate
+          - pip install -r requirements.txt
+          - python manage.py migrate
+          - python manage.py runserver &  # Start Django in background
+          - sleep 5  # Wait for server to start
+          - npx cypress run  # Run Cypress tests
+
+    - step:
+        name: Setup and Test Frontend (Jest)
+        image: node:18  # Node.js for frontend
+        caches:
+          - node
+        script:
+          - cd frontend
+          - npm install
+          - npm run test  # Run Jest tests
+
+    - step:
+        name: Deploy to Server
+        deployment: production
+        trigger: manual  # Run manually after tests pass
+        script:
+          - echo "Deploying backend and frontend..."
+          - ssh user@your-server "cd /path/to/project && git pull && ./deploy.sh"
