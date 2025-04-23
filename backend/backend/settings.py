@@ -99,11 +99,13 @@ MIDDLEWARE = [
 CSRF_TRUSTED_ORIGINS = [
     'http://127.0.0.1:8000',
     'http://localhost:8000',
+    'https://mastodonhub-nizj.onrender.com',
 ]
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://127.0.0.1:8000',
+    'https://mastodonhub-nizj.onrender.com',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
@@ -187,7 +189,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
-     'https://django-mastodonhub-react.onrender.com', '127.0.0.1:8000'
+     'https://django-mastodonhub-react.onrender.com', '127.0.0.1:8000', 'https://mastodonhub-nizj.onrender.com',
 ]
 
 
