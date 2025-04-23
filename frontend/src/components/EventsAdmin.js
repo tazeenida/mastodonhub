@@ -4,7 +4,7 @@ import { Modal, ModalHeader, ModalBody, ModalFooter, Button, Form, FormGroup, La
 import { useNavigate } from 'react-router-dom';
 import '../adminClubsEvents.css'
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
+const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
 
 function EventsAdmin() {
     const [events, setEvents] = useState([]);

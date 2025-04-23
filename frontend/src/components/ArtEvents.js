@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
+const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
 
 function ArtEvents() {
   const [artEvents, setArtEvents] = useState([]);

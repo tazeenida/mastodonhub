@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import axios from 'axios';
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
+const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
 
 export function Navigation() {
   const [isAuth, setIsAuth] = useState(false);

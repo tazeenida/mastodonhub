@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
+const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
 
 const EnhancedUserProfile = () => {
   const [userData, setUserData] = useState(null);

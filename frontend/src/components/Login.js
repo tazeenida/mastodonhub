@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const backendUrl = process.env.REACT_APP_BACKEND_URL;
+const backendUrl = `https://django-mastodonhub-react-1.onrender.com`;
 
 const Login = () => {
   const [username, setUsername] = useState('');
