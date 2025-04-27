@@ -22,7 +22,6 @@ pip-delete-this-directory.txt
 .env
 
 # Django
-db.sqlite3
 *.pot
 *.pyc
 *.pyo
